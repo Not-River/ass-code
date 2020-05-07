@@ -1,0 +1,13 @@
+import os
+
+if __name__ == '__main__':
+    a = 2
+    b = 1
+    c = 0
+    count = 0
+    while count < 10000:
+        print(a, '\n')
+        c = a
+        a += b
+        b = c
+        count += 1
